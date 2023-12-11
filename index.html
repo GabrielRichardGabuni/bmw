@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+
+    <title>BMW R 1300 GS</title>
+</head>
+<body>
+    <div class="container" id="motor">
+        <nav>
+            <img src="logo.png" class="logo">
+            <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" class="btn">BUY NOW!</a>
+        </nav>
+        <div class="content">
+            <h2>THE BMW</h2>
+            <h1>R 1300 GS</h1>
+            <p>“With the new BMW R 1300 GS we will once again take the competition by 
+                surprise. It is defined by an even broader spread of product substance,
+                 while the reduction in complexity and vehicle weight, combined with 
+                 focused equipment, enable the essence of the boxer GS to be showcased 
+                 even more strikingly. With a new engine, outstanding handling and 
+                 impressive ride qualities, it will set the pace both on and off the 
+                 road.”</h3>
+                 <div class="color-select">
+                    <div id="red"></div>
+                    <div id="green"></div>
+                    <div id="black"></div>
+                 </div>
+        </div>
+
+    </div>
+<script>
+    let redBtn = document.getElementById("red");
+    let greenBtn = document.getElementById("green");
+    let blackBtn = document.getElementById("black");
+    let motor = document.getElementById("motor");
+
+    redBtn.onclick = function(){
+        motor.style.backgroundImage = "url(blue.png)"
+    }
+    greenBtn.onclick = function(){
+        motor.style.backgroundImage = "url(white.png)"
+    }
+    blackBtn.onclick = function(){
+        motor.style.backgroundImage = "url(black.png)"
+    }
+</script>
+<footer>
+    Gabuni,Gabriel Richard R.
+</footer>
+
+</body>
+</html>
